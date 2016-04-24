@@ -138,7 +138,7 @@
             // 
             // addButton
             // 
-            this.addButton.Location = new System.Drawing.Point(88, 332);
+            this.addButton.Location = new System.Drawing.Point(41, 332);
             this.addButton.Name = "addButton";
             this.addButton.Size = new System.Drawing.Size(75, 23);
             this.addButton.TabIndex = 9;
@@ -148,7 +148,7 @@
             // 
             // cancelButton
             // 
-            this.cancelButton.Location = new System.Drawing.Point(262, 332);
+            this.cancelButton.Location = new System.Drawing.Point(159, 332);
             this.cancelButton.Name = "cancelButton";
             this.cancelButton.Size = new System.Drawing.Size(75, 23);
             this.cancelButton.TabIndex = 10;
@@ -228,7 +228,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(447, 384);
+            this.ClientSize = new System.Drawing.Size(284, 377);
             this.Controls.Add(this.paymentLabel);
             this.Controls.Add(this.hourLabel);
             this.Controls.Add(this.rateLabel);

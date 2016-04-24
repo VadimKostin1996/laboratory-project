@@ -76,22 +76,27 @@ namespace View
             }
         }
 
+        /// <summary>
+        /// Событие срабатывающее при нажатии по кнопке Create 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void createRandomDataButton_Click(object sender, EventArgs e)
         {
-            String[] nameArr = new String[] { "Андрей", "Григорий", "Иван", "Пётр", };
-            String[] surnameArr = new String[] { "Иванов", "Сидоров", "Петров", "Андреев" };
-            String[] patronymicArr = new String[] { "Иванович", "Сидорович", "Петрович", "Андреевич" };
+            String[] nameArr = new String[] { "Андрей", "Григорий", "Иван", "Пётр", "Евгений"};
+            String[] surnameArr = new String[] { "Иванов", "Сидоров", "Петров", "Андреев", "Путин"};
+            String[] patronymicArr = new String[] { "Иванович", "Сидорович", "Петрович", "Андреевич", "Владимирович"};
             var rand = new Random();
             for (int i = 0; i < 9; i++)
             {
                 if (rand.Next(0, 2) == 0)
                 {
-                    var newCasing = new Casing(nameArr[rand.Next(0, 4)], surnameArr[rand.Next(0, 4)], patronymicArr[rand.Next(0, 4)], rand.Next(100,10000), 1/rand.Next(1,3));
+                    var newCasing = new Casing(nameArr[rand.Next(0, 5)], surnameArr[rand.Next(0, 5)], patronymicArr[rand.Next(0, 5)], rand.Next(100,10000), 1/rand.Next(1,3));
                     payList.Add(newCasing);
                 }
                 if (rand.Next(0, 2) == 1)
                 {
-                    var newHourlyPay = new HourlyPay( nameArr[rand.Next(0, 4)], surnameArr[rand.Next(0, 4)], patronymicArr[rand.Next(0, 4)], rand.Next(1, 185), rand.Next(100, 1000));
+                    var newHourlyPay = new HourlyPay( nameArr[rand.Next(0, 5)], surnameArr[rand.Next(0, 5)], patronymicArr[rand.Next(0, 5)], rand.Next(1, 185), rand.Next(100, 1000));
                     payList.Add(newHourlyPay);
                 }
             }
