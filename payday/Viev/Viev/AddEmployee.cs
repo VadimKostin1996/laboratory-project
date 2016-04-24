@@ -18,14 +18,21 @@ namespace View
             InitializeComponent();
         }
 
-        private PayrollForm ownerForm
+        private object _ownerForm;
+
+        public PayrollForm OwnerForm
         {
+            set
+            {
+                _ownerForm = value;
+            }
             get
             {
-                return this.Owner as PayrollForm;
+                return (_ownerForm as PayrollForm);
             }
         }
 
+        
         private void cancelButton_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -58,7 +65,7 @@ namespace View
 
         private void addOrModifyButton_Click(object sender, EventArgs e)
         {
-            if (ownerForm.selectedRow == -1) // если форма открыта в режиме добавления строки
+            if (OwnerForm.selectedRow == -1) // если форма открыта в режиме добавления строки
             {
                 if (casingRadioButton.Checked == true)
                 {
@@ -79,7 +86,7 @@ namespace View
                         {
                             var newCasing = new payday.Casing(nameTextBox.Text, surnameTextBox.Text, patronymicTextBox.Text,
                                 Convert.ToDouble(salaryTextBox.Text), Convert.ToDouble(rateTextBox.Text));
-                            ownerForm.payList.Add(newCasing);
+                            OwnerForm.payList.Add(newCasing);
                             this.Close();
                             MessageBox.Show("Record id add");
                             return;
@@ -103,33 +110,33 @@ namespace View
 
                     var newHourlyPay = new HourlyPay(nameTextBox.Text, surnameTextBox.Text, patronymicTextBox.Text,
                     Convert.ToInt32(hourTextBox.Text), Convert.ToDouble(paymentTextBox.Text));
-                    ownerForm.payList.Add(newHourlyPay);
+                    OwnerForm.payList.Add(newHourlyPay);
                     this.Close();
                     MessageBox.Show("Record id add");
                     return;
                 }
                 MessageBox.Show("Select caltulation metod");
             }
-            if (ownerForm.selectedRow != -1)
+            if (OwnerForm.selectedRow != -1)
             {
                 if (casingRadioButton.Checked == true)
                 {
                     var casing = new Casing(nameTextBox.Text, surnameTextBox.Text, patronymicTextBox.Text,
                                     Convert.ToDouble(salaryTextBox.Text), Convert.ToDouble(rateTextBox.Text));
-                    ownerForm.payList[ownerForm.selectedRow] = casing;
+                    OwnerForm.payList[OwnerForm.selectedRow] = casing;
                     this.Close();
                     MessageBox.Show("Record id changed");
-                    ownerForm.selectedRow = -1;
+                    OwnerForm.selectedRow = -1;
                     return;
                 }
                 if (hourlyPayRadioButton.Checked == true)
                 {
                     var hourlyPay = new HourlyPay(nameTextBox.Text, surnameTextBox.Text, patronymicTextBox.Text,
                         Convert.ToInt32(hourTextBox.Text), Convert.ToDouble(paymentTextBox.Text));
-                    ownerForm.payList[ownerForm.selectedRow] = hourlyPay;
+                    OwnerForm.payList[OwnerForm.selectedRow] = hourlyPay;
                     this.Close();
                     MessageBox.Show("Record id changed");
-                    ownerForm.selectedRow = -1;
+                    OwnerForm.selectedRow = -1;
                     return;
                 }
             }
@@ -204,27 +211,27 @@ namespace View
 
         private void AddEmployeeForm_Load(object sender, EventArgs e)
         {
-            if (ownerForm.selectedRow != -1 && ownerForm.payList.Count > 0) 
+            if (OwnerForm.selectedRow != -1 && OwnerForm.payList.Count > 0) 
             {
                 addButton.Text = "Modify";
                 this.Text = "Modify employee";
-                if (ownerForm.payList[ownerForm.selectedRow] is Casing)
+                if (OwnerForm.payList[OwnerForm.selectedRow] is Casing)
                 {
                     casingRadioButton.Checked = true;
-                    nameTextBox.Text = ownerForm.payList[ownerForm.selectedRow].name;
-                    surnameTextBox.Text = ownerForm.payList[ownerForm.selectedRow].surname;
-                    patronymicTextBox.Text = ownerForm.payList[ownerForm.selectedRow].patronymic;
-                    rateTextBox.Text = Convert.ToString((ownerForm.payList[ownerForm.selectedRow] as Casing).rate);
-                    salaryTextBox.Text = Convert.ToString((ownerForm.payList[ownerForm.selectedRow] as Casing).salary);
+                    nameTextBox.Text = OwnerForm.payList[OwnerForm.selectedRow].name;
+                    surnameTextBox.Text = OwnerForm.payList[OwnerForm.selectedRow].surname;
+                    patronymicTextBox.Text = OwnerForm.payList[OwnerForm.selectedRow].patronymic;
+                    rateTextBox.Text = Convert.ToString((OwnerForm.payList[OwnerForm.selectedRow] as Casing).rate);
+                    salaryTextBox.Text = Convert.ToString((OwnerForm.payList[OwnerForm.selectedRow] as Casing).salary);
                 }
-                if (ownerForm.payList[ownerForm.selectedRow] is payday.HourlyPay)
+                if (OwnerForm.payList[OwnerForm.selectedRow] is payday.HourlyPay)
                 {
                     hourlyPayRadioButton.Checked = true;
-                    nameTextBox.Text = (ownerForm.payList[ownerForm.selectedRow].name);
-                    surnameTextBox.Text = (ownerForm.payList[ownerForm.selectedRow].surname);
-                    patronymicTextBox.Text = (ownerForm.payList[ownerForm.selectedRow].patronymic);
-                    hourTextBox.Text = Convert.ToString((ownerForm.payList[ownerForm.selectedRow] as HourlyPay).hour);
-                    paymentTextBox.Text = Convert.ToString((ownerForm.payList[ownerForm.selectedRow] as HourlyPay).payment);
+                    nameTextBox.Text = (OwnerForm.payList[OwnerForm.selectedRow].name);
+                    surnameTextBox.Text = (OwnerForm.payList[OwnerForm.selectedRow].surname);
+                    patronymicTextBox.Text = (OwnerForm.payList[OwnerForm.selectedRow].patronymic);
+                    hourTextBox.Text = Convert.ToString((OwnerForm.payList[OwnerForm.selectedRow] as HourlyPay).hour);
+                    paymentTextBox.Text = Convert.ToString((OwnerForm.payList[OwnerForm.selectedRow] as HourlyPay).payment);
                 }
             }
         }

@@ -28,7 +28,7 @@ namespace View
         private void addButton_Click(object sender, EventArgs e)
         {
             var addEmployee = new AddEmployeeForm();
-            addEmployee.Owner = this;
+            addEmployee.OwnerForm = this;
             addEmployee.ShowDialog();
         }
 
