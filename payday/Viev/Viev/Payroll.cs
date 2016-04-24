@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using payday;
+using payCalculation;
 using System.IO;
 using Newtonsoft;
 using Newtonsoft.Json;
@@ -21,7 +21,7 @@ namespace View
             InitializeComponent();
         }
 
-        public List<IPayday> payList = new List<IPayday>();
+        public List<IPay> payList = new List<IPay>();
 
         public int selectedRow = -1; // выбранная строка, идентификатор того, в каком режиме откоется addOrModifyForm (добавить или изменить)
 
@@ -152,7 +152,7 @@ namespace View
                 {
                     using (Newtonsoft.Json.JsonReader jReader = new Newtonsoft.Json.JsonTextReader(streamReader))
                     {
-                        payList = serializer.Deserialize<List<IPayday>>(jReader);
+                        payList = serializer.Deserialize<List<IPay>>(jReader);
                     }
                 }
                 MessageBox.Show("File is loading");

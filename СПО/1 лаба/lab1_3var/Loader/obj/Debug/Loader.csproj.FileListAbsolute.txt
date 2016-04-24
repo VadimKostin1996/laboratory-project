@@ -1,0 +1,38 @@
+G:\Для универа\лабы по СПО\lab1_3var\Loader\bin\Debug\Loader.exe.config
+G:\Для универа\лабы по СПО\lab1_3var\Loader\bin\Debug\Loader.exe
+G:\Для универа\лабы по СПО\lab1_3var\Loader\bin\Debug\Loader.pdb
+G:\Для универа\лабы по СПО\lab1_3var\Loader\bin\Debug\lab1_3var.dll
+G:\Для универа\лабы по СПО\lab1_3var\Loader\bin\Debug\lab1_3var.pdb
+G:\Для универа\лабы по СПО\lab1_3var\Loader\obj\Debug\Loader.csprojResolveAssemblyReference.cache
+G:\Для универа\лабы по СПО\lab1_3var\Loader\obj\Debug\Loader.exe
+G:\Для универа\лабы по СПО\lab1_3var\Loader\obj\Debug\Loader.pdb
+C:\Users\ASUS\Desktop\Учеба\lab1_3var\Loader\bin\Debug\Loader.exe.config
+C:\Users\ASUS\Desktop\Учеба\lab1_3var\Loader\obj\Debug\Loader.exe
+C:\Users\ASUS\Desktop\Учеба\lab1_3var\Loader\obj\Debug\Loader.pdb
+C:\Users\ASUS\Desktop\Учеба\lab1_3var\Loader\bin\Debug\Loader.exe
+C:\Users\ASUS\Desktop\Учеба\lab1_3var\Loader\bin\Debug\Loader.pdb
+C:\Users\ASUS\Desktop\Учеба\lab1_3var\Loader\bin\Debug\lab1_3var.dll
+C:\Users\ASUS\Desktop\Учеба\lab1_3var\Loader\bin\Debug\mscorlib.dll
+C:\Users\ASUS\Desktop\Учеба\lab1_3var\Loader\bin\Debug\lab1_3var.pdb
+C:\Users\ASUS\Desktop\Учеба\lab1_3var\Loader\bin\Debug\ru\mscorlib.resources.dll
+C:\Users\ASUS\Desktop\Учеба\lab1_3var\Loader\bin\Debug\normidna.nlp
+C:\Users\ASUS\Desktop\Учеба\lab1_3var\Loader\bin\Debug\normnfc.nlp
+C:\Users\ASUS\Desktop\Учеба\lab1_3var\Loader\bin\Debug\normnfd.nlp
+C:\Users\ASUS\Desktop\Учеба\lab1_3var\Loader\bin\Debug\normnfkc.nlp
+C:\Users\ASUS\Desktop\Учеба\lab1_3var\Loader\bin\Debug\normnfkd.nlp
+C:\Users\ASUS\Desktop\Учеба\lab1_3var\Loader\obj\Debug\Loader.csprojResolveAssemblyReference.cache
+C:\Users\ASUS\Desktop\Учеба\СПО\lab1_3var\Loader\bin\Debug\Loader.exe.config
+C:\Users\ASUS\Desktop\Учеба\СПО\lab1_3var\Loader\obj\Debug\Loader.exe
+C:\Users\ASUS\Desktop\Учеба\СПО\lab1_3var\Loader\obj\Debug\Loader.pdb
+C:\Users\ASUS\Desktop\Учеба\СПО\lab1_3var\Loader\bin\Debug\Loader.exe
+C:\Users\ASUS\Desktop\Учеба\СПО\lab1_3var\Loader\bin\Debug\Loader.pdb
+C:\Users\ASUS\Desktop\Учеба\СПО\lab1_3var\Loader\bin\Debug\lab1_3var.dll
+C:\Users\ASUS\Desktop\Учеба\СПО\lab1_3var\Loader\bin\Debug\mscorlib.dll
+C:\Users\ASUS\Desktop\Учеба\СПО\lab1_3var\Loader\bin\Debug\lab1_3var.pdb
+C:\Users\ASUS\Desktop\Учеба\СПО\lab1_3var\Loader\bin\Debug\ru\mscorlib.resources.dll
+C:\Users\ASUS\Desktop\Учеба\СПО\lab1_3var\Loader\bin\Debug\normidna.nlp
+C:\Users\ASUS\Desktop\Учеба\СПО\lab1_3var\Loader\bin\Debug\normnfc.nlp
+C:\Users\ASUS\Desktop\Учеба\СПО\lab1_3var\Loader\bin\Debug\normnfd.nlp
+C:\Users\ASUS\Desktop\Учеба\СПО\lab1_3var\Loader\bin\Debug\normnfkc.nlp
+C:\Users\ASUS\Desktop\Учеба\СПО\lab1_3var\Loader\bin\Debug\normnfkd.nlp
+C:\Users\ASUS\Desktop\Учеба\СПО\lab1_3var\Loader\obj\Debug\Loader.csprojResolveAssemblyReference.cache

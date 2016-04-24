@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console", "Console\Console.csproj", "{2B548ACC-6694-4507-BE88-DBC73E24CD60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "payday", "..\payday\payday\payday.csproj", "{4A80F736-D198-4D58-B660-AA47ADC66EB7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B548ACC-6694-4507-BE88-DBC73E24CD60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B548ACC-6694-4507-BE88-DBC73E24CD60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B548ACC-6694-4507-BE88-DBC73E24CD60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B548ACC-6694-4507-BE88-DBC73E24CD60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A80F736-D198-4D58-B660-AA47ADC66EB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A80F736-D198-4D58-B660-AA47ADC66EB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A80F736-D198-4D58-B660-AA47ADC66EB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A80F736-D198-4D58-B660-AA47ADC66EB7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

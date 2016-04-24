@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using payday;
+using payCalculation;
 
 namespace View
 {
@@ -84,7 +84,7 @@ namespace View
                         }
                         else
                         {
-                            var newCasing = new payday.Casing(nameTextBox.Text, surnameTextBox.Text, patronymicTextBox.Text,
+                            var newCasing = new payCalculation.Casing(nameTextBox.Text, surnameTextBox.Text, patronymicTextBox.Text,
                                 Convert.ToDouble(salaryTextBox.Text), Convert.ToDouble(rateTextBox.Text));
                             OwnerForm.payList.Add(newCasing);
                             this.Close();
@@ -224,7 +224,7 @@ namespace View
                     rateTextBox.Text = Convert.ToString((OwnerForm.payList[OwnerForm.selectedRow] as Casing).rate);
                     salaryTextBox.Text = Convert.ToString((OwnerForm.payList[OwnerForm.selectedRow] as Casing).salary);
                 }
-                if (OwnerForm.payList[OwnerForm.selectedRow] is payday.HourlyPay)
+                if (OwnerForm.payList[OwnerForm.selectedRow] is payCalculation.HourlyPay)
                 {
                     hourlyPayRadioButton.Checked = true;
                     nameTextBox.Text = (OwnerForm.payList[OwnerForm.selectedRow].name);

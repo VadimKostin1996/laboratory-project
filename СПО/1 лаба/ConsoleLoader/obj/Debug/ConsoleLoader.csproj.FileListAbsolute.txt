@@ -1,0 +1,16 @@
+C:\Users\Егор\Desktop\Шлак\Системное программное обеспечение\Option3\ConsoleLoader\bin\Debug\ConsoleLoader.exe.config
+C:\Users\Егор\Desktop\Шлак\Системное программное обеспечение\Option3\ConsoleLoader\bin\Debug\ConsoleLoader.exe
+C:\Users\Егор\Desktop\Шлак\Системное программное обеспечение\Option3\ConsoleLoader\bin\Debug\ConsoleLoader.pdb
+C:\Users\Егор\Desktop\Шлак\Системное программное обеспечение\Option3\ConsoleLoader\bin\Debug\Option3.dll
+C:\Users\Егор\Desktop\Шлак\Системное программное обеспечение\Option3\ConsoleLoader\bin\Debug\Option3.pdb
+C:\Users\Егор\Desktop\Шлак\Системное программное обеспечение\Option3\ConsoleLoader\obj\Debug\ConsoleLoader.csprojResolveAssemblyReference.cache
+C:\Users\Егор\Desktop\Шлак\Системное программное обеспечение\Option3\ConsoleLoader\obj\Debug\ConsoleLoader.exe
+C:\Users\Егор\Desktop\Шлак\Системное программное обеспечение\Option3\ConsoleLoader\obj\Debug\ConsoleLoader.pdb
+C:\Users\ASUS\Desktop\Учеба\ConsoleLoader\bin\Debug\ConsoleLoader.exe.config
+C:\Users\ASUS\Desktop\Учеба\ConsoleLoader\obj\Debug\ConsoleLoader.exe
+C:\Users\ASUS\Desktop\Учеба\ConsoleLoader\obj\Debug\ConsoleLoader.pdb
+C:\Users\ASUS\Desktop\Учеба\ConsoleLoader\bin\Debug\ConsoleLoader.exe
+C:\Users\ASUS\Desktop\Учеба\ConsoleLoader\bin\Debug\ConsoleLoader.pdb
+C:\Users\ASUS\Desktop\Учеба\ConsoleLoader\bin\Debug\Option3.dll
+C:\Users\ASUS\Desktop\Учеба\ConsoleLoader\bin\Debug\Option3.pdb
+C:\Users\ASUS\Desktop\Учеба\ConsoleLoader\obj\Debug\ConsoleLoader.csprojResolveAssemblyReference.cache

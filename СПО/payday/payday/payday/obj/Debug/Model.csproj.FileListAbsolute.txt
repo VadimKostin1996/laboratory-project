@@ -1,0 +1,10 @@
+C:\Users\ASUS\Desktop\Учеба\СПО\payday\payday\payday\bin\Debug\payday.dll
+C:\Users\ASUS\Desktop\Учеба\СПО\payday\payday\payday\bin\Debug\payday.pdb
+C:\Users\ASUS\Desktop\Учеба\СПО\payday\payday\payday\obj\Debug\payday.dll
+C:\Users\ASUS\Desktop\Учеба\СПО\payday\payday\payday\obj\Debug\payday.pdb
+C:\Users\ASUS\Desktop\Учеба\СПО\payday\payday\payday\obj\Debug\Model.csprojResolveAssemblyReference.cache
+C:\Users\ASUS\Desktop\rep\СПО\payday\payday\payday\bin\Debug\payday.dll
+C:\Users\ASUS\Desktop\rep\СПО\payday\payday\payday\bin\Debug\payday.pdb
+C:\Users\ASUS\Desktop\rep\СПО\payday\payday\payday\obj\Debug\Model.csprojResolveAssemblyReference.cache
+C:\Users\ASUS\Desktop\rep\СПО\payday\payday\payday\obj\Debug\payday.dll
+C:\Users\ASUS\Desktop\rep\СПО\payday\payday\payday\obj\Debug\payday.pdb

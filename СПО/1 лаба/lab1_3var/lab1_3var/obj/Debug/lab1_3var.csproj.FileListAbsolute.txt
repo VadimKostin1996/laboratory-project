@@ -1,0 +1,29 @@
+G:\Для универа\лабы по СПО\lab1_3var\lab1_3var\bin\Debug\lab1_3var.dll
+G:\Для универа\лабы по СПО\lab1_3var\lab1_3var\bin\Debug\lab1_3var.pdb
+G:\Для универа\лабы по СПО\lab1_3var\lab1_3var\obj\Debug\lab1_3var.csprojResolveAssemblyReference.cache
+G:\Для универа\лабы по СПО\lab1_3var\lab1_3var\obj\Debug\lab1_3var.dll
+G:\Для универа\лабы по СПО\lab1_3var\lab1_3var\obj\Debug\lab1_3var.pdb
+C:\Users\ASUS\Desktop\Учеба\lab1_3var\lab1_3var\bin\Debug\lab1_3var.dll
+C:\Users\ASUS\Desktop\Учеба\lab1_3var\lab1_3var\bin\Debug\lab1_3var.pdb
+C:\Users\ASUS\Desktop\Учеба\lab1_3var\lab1_3var\bin\Debug\mscorlib.dll
+C:\Users\ASUS\Desktop\Учеба\lab1_3var\lab1_3var\bin\Debug\ru\mscorlib.resources.dll
+C:\Users\ASUS\Desktop\Учеба\lab1_3var\lab1_3var\bin\Debug\normidna.nlp
+C:\Users\ASUS\Desktop\Учеба\lab1_3var\lab1_3var\bin\Debug\normnfc.nlp
+C:\Users\ASUS\Desktop\Учеба\lab1_3var\lab1_3var\bin\Debug\normnfd.nlp
+C:\Users\ASUS\Desktop\Учеба\lab1_3var\lab1_3var\bin\Debug\normnfkc.nlp
+C:\Users\ASUS\Desktop\Учеба\lab1_3var\lab1_3var\bin\Debug\normnfkd.nlp
+C:\Users\ASUS\Desktop\Учеба\lab1_3var\lab1_3var\obj\Debug\lab1_3var.csprojResolveAssemblyReference.cache
+C:\Users\ASUS\Desktop\Учеба\lab1_3var\lab1_3var\obj\Debug\lab1_3var.dll
+C:\Users\ASUS\Desktop\Учеба\lab1_3var\lab1_3var\obj\Debug\lab1_3var.pdb
+C:\Users\ASUS\Desktop\Учеба\СПО\lab1_3var\lab1_3var\bin\Debug\lab1_3var.dll
+C:\Users\ASUS\Desktop\Учеба\СПО\lab1_3var\lab1_3var\bin\Debug\lab1_3var.pdb
+C:\Users\ASUS\Desktop\Учеба\СПО\lab1_3var\lab1_3var\bin\Debug\mscorlib.dll
+C:\Users\ASUS\Desktop\Учеба\СПО\lab1_3var\lab1_3var\bin\Debug\ru\mscorlib.resources.dll
+C:\Users\ASUS\Desktop\Учеба\СПО\lab1_3var\lab1_3var\bin\Debug\normidna.nlp
+C:\Users\ASUS\Desktop\Учеба\СПО\lab1_3var\lab1_3var\bin\Debug\normnfc.nlp
+C:\Users\ASUS\Desktop\Учеба\СПО\lab1_3var\lab1_3var\bin\Debug\normnfd.nlp
+C:\Users\ASUS\Desktop\Учеба\СПО\lab1_3var\lab1_3var\bin\Debug\normnfkc.nlp
+C:\Users\ASUS\Desktop\Учеба\СПО\lab1_3var\lab1_3var\bin\Debug\normnfkd.nlp
+C:\Users\ASUS\Desktop\Учеба\СПО\lab1_3var\lab1_3var\obj\Debug\lab1_3var.csprojResolveAssemblyReference.cache
+C:\Users\ASUS\Desktop\Учеба\СПО\lab1_3var\lab1_3var\obj\Debug\lab1_3var.dll
+C:\Users\ASUS\Desktop\Учеба\СПО\lab1_3var\lab1_3var\obj\Debug\lab1_3var.pdb
