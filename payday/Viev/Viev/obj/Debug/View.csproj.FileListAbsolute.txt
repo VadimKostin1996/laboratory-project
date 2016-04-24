@@ -1,0 +1,13 @@
+C:\Users\ASUS\Desktop\Учеба\payday\Viev\Viev\bin\Debug\Viev.exe.config
+C:\Users\ASUS\Desktop\Учеба\payday\Viev\Viev\bin\Debug\Viev.exe
+C:\Users\ASUS\Desktop\Учеба\payday\Viev\Viev\bin\Debug\Viev.pdb
+C:\Users\ASUS\Desktop\Учеба\payday\Viev\Viev\bin\Debug\payday.dll
+C:\Users\ASUS\Desktop\Учеба\payday\Viev\Viev\bin\Debug\payday.pdb
+C:\Users\ASUS\Desktop\Учеба\payday\Viev\Viev\obj\Debug\View.csprojResolveAssemblyReference.cache
+C:\Users\ASUS\Desktop\Учеба\payday\Viev\Viev\obj\Debug\View.csproj.GenerateResource.Cache
+C:\Users\ASUS\Desktop\Учеба\payday\Viev\Viev\obj\Debug\Viev.exe
+C:\Users\ASUS\Desktop\Учеба\payday\Viev\Viev\obj\Debug\Viev.pdb
+C:\Users\ASUS\Desktop\Учеба\payday\Viev\Viev\obj\Debug\View.Properties.Resources.resources
+C:\Users\ASUS\Desktop\Учеба\payday\Viev\Viev\obj\Debug\View.AddEmployeeForm.resources
+C:\Users\ASUS\Desktop\Учеба\payday\Viev\Viev\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ASUS\Desktop\Учеба\payday\Viev\Viev\obj\Debug\View.PayrollForm.resources
